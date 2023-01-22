@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.content{
+  width: calc(100% - 90px);
+}

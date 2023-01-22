@@ -1,0 +1,73 @@
+.sidebar{
+  width: 270px;
+  height: 100vh;
+  background-color: white;
+  border-right: 1px solid #EBECED;
+  overflow-y: scroll;
+  padding-bottom: 15px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 15px 27px 30px;
+  border-bottom: 1px solid #EBECED;
+}
+.logoLeft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logoCircle{
+  width: 14px;
+  height: 14px;
+  background: #27E1BF;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.logoDown{
+  display: flex;
+  cursor: pointer;
+}
+.leftMenuToggle{
+  cursor: pointer;
+}
+.leftSideMenu{
+  padding: 26px 0px;
+  border-bottom: 1px solid #EBECED;
+  margin-bottom: 26px;
+}
+.leftMenuItem{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 15px;
+  margin: 0 15px 4px 15px;
+}
+.leftMenuItem.active{
+  background: #F6F6FF;
+  border-radius: 8px;
+}
+.leftMenuLabel{
+  padding-left: 16px;
+  color: #070F21;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+.logoLabel{
+  margin: 0 8px;
+  color: #070F21;
+  font-weight: 600;
+  font-size: 16px;
+}

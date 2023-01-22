@@ -1,0 +1,142 @@
+.listCard{
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin: 0 0 8px 0;
+}
+.dotList{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.pinkBg{
+  background: #FF3477;
+}
+.yellowBg{
+  background: #FF9F1A;
+}
+.blueBg{
+  background: #6248FF;
+}
+.lightBlueBg{
+  background: #70A0FF;
+}
+.listCardTop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listTopLeft{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.listCardHead{
+  color: rgb(7 15 33 / 60%);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  margin-left: 4px;
+}
+.listTopRight{
+  cursor: pointer;
+}
+.listCardTitle{
+  margin: 2px 0 8px 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgb(7 15 33 / 80%);
+}
+.cardLink{
+  padding: 0px 4px 2px;
+  border-radius: 8px;
+  color: rgb(7 15 33 / 80%);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+.linkBrown{
+  background: #FFEEDE;
+}
+.linkPink{
+  background: #FFDEFC;
+}
+
+.progressList{
+  padding: 0px 4px 2px;
+  width: 43px;
+  height: 6px;
+  background: #DEEFFF;
+  border-radius: 8px;
+  margin-right: 4;
+}
+.pGreen{
+  background: #DEEFFF;
+}
+.pPink{
+  background: #FFA5F7;
+}
+.cardListLinks,
+.cardListProgress{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.cardActions{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.cardMsg,
+.cardLinkList,
+.cardCheckList{
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.msgCount,
+.checkListCount,
+.linkCount{
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgb(7 15 33 / 60%);
+  margin-left: 4px;
+}
+.cardBottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8.5px;
+}
+.cardImage{
+  display: flex;
+  cursor: pointer;
+}
+.cardDate{
+  padding: 2px 4px;
+  background: rgba(7, 15, 33, 0.08);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgb(7 15 33 / 50%);
+}
+.pinCard{
+  margin-bottom: 12px;
+}

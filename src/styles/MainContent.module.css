@@ -1,0 +1,16 @@
+.mainContent{
+  flex-grow: 1;
+  position: relative;
+}
+.innerContent{
+  padding: 29px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 75vh;
+}

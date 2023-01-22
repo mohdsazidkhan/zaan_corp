@@ -1,0 +1,325 @@
+.listItem{
+  padding: 8px 2px 8px 8px;
+  background: rgba(7, 15, 33, 0.04);
+  border-radius: 8px;
+  min-width: 216px;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: top;
+  max-height: 100vh;
+}
+.listItemTop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.listHeadTop{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.listHeading{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #070F21;
+}
+.listCount{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(7, 15, 33, 0.5);
+  margin-left: 4px;
+}
+.listFilter{
+  margin-left: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.listSort,
+.listMenu{
+  cursor: pointer;
+}
+.listSort{
+  position: relative;
+}
+.listMenu{
+  padding-right: 8px;
+}
+.cardBody{
+  height: 58vh;
+  overflow-y: scroll;
+  margin: 8px 0 0 0;
+  padding-right: 8px;
+}
+
+.addCardBtn{
+  padding: 7px 12px;
+  border: 1px solid rgba(7, 15, 33, 0.1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.addBtnText{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #0E8CFF;
+  margin-left: 4px;
+}
+.addCardGroup{
+  margin-top: 12px;
+  position: relative;
+}
+.cardNames{
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  background: #FFFFFF;
+  border: 1px solid rgba(7, 15, 33, 0.1);
+  box-shadow: 0px 12px 24px rgba(174, 178, 193, 0.2);
+  border-radius: 8px;
+  padding: 4px 0;
+}
+.listActionDropdown{
+  position: absolute;
+  top: 100%;
+  left: -15%;
+  right: 0;
+  width: 125%;
+  background: #FFFFFF;
+  border: 1px solid rgba(7, 15, 33, 0.1);
+  box-shadow: 0px 12px 24px rgb(174 178 193 / 20%);
+  border-radius: 8px;
+  padding: 4px 0;
+}
+.listActionDropdown.sortBy{
+  right: 35%;
+  width: 240px;
+  left: auto;
+  z-index: 99;
+}
+.listActionDropdown.filterDrop{
+  right: 45%;
+  width: 254px;
+  left: auto;
+  z-index: 999;
+}
+
+.actionDropTop{
+  padding: 16px;
+  border-bottom: 1px solid rgb(7 15 33 / 10%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.actionDropTitle{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #070F21;
+}
+.actionDropClose{
+  cursor: pointer;
+}
+.actionItems{
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+.actionItems .actionItem{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(7 15 33 / 70%);
+  padding: 8px 20px;
+  cursor: pointer;
+  background: #FFFFFF;
+}
+.sortBy .actionItems .actionItem:hover{
+  background: rgba(7, 15, 33, 0.04);
+}
+.cardNames .cardGroup,
+.dropProjects .cardGroup{
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  background: #FFFFFF;
+}
+.dropProjects .cardGroup{
+  padding: 8px 0;
+}
+.cardNames .cardGroup:hover {
+  background: rgba(7, 15, 33, 0.04);
+}
+.cardNames .cardGroup.selected {
+  background: rgba(7, 15, 33, 0.04);
+}
+.cardNames .cardColor,
+.dropProjects .cardColor{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.cardGroup .cardText,
+.dropProjects .cardText{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(7 15 33 / 70%);
+  margin-left: 6px;
+}
+.dropProjects{
+  padding: 16px;
+  max-height: 42vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.dropProjects .cardCheckbox{
+  padding-right: 12px;
+}
+.dropProjects .cardCheckbox input[type="checkbox"]{
+  background: #0E8CFF;
+  border-color: #0E8CFF;
+}
+.linkShowAll{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #0E8CFF;
+}
+.cardLink{
+  padding: 0px 6px 2px;
+  border-radius: 8px;
+  color: rgb(7 15 33 / 71%);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+.mt16{
+  margin-top: 16px;
+}
+.linkBrown{
+  background: #FFEEDE;
+}
+.linkPink{
+  background: #FFDEFC;
+}
+.linkGreen{
+  background: #E4F5FF;
+}
+.linkGrayGreen{
+  background: #DDE6FE;
+}
+.leftPosition{
+  left: 40% !important;
+}
+.filterDropBottom{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid rgba(7, 15, 33, 0.08);
+}
+.bottomLink{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(7 15 33 / 50%);
+  cursor: pointer;
+}
+.bottomBtn{
+  padding: 8px 16px;
+  background: #0E8CFF;
+  border: 1px solid rgba(7, 15, 33, 0.05);
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 16px;
+}
+.dropProjects .filterHead{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #070F21;
+  padding-bottom: 8px;
+}
+.pinkBg{
+  background: #FF3477;
+}
+.yellowBg{
+  background: #FF9F1A;
+}
+.blueBg{
+  background: #6248FF;
+}
+.lightBlueBg{
+  background: #70A0FF;
+}
+.addCardTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.addCardTop svg{
+  cursor: pointer;
+}
+.addCardTitle{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgb(7 15 33 / 80%);
+}
+.cardTextarea textarea{
+  padding: 8px;
+  background: #FFFFFF;
+  border: 1px solid #0E8CFF;
+  border-radius: 8px;
+  width: 100%;
+  margin: 8px 0;
+}
+.cardTextarea textarea::placeholder{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(7, 15, 33, 0.3);
+  font-family: 'Inter', sans-serif;
+}
+.cardTextarea textarea:focus-visible,
+.addCardBottom select:focus-visible{
+  outline: 0;
+}
+.addCardBottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addCardBottom select{
+  padding: 9px 8px;
+  background: #FFFFFF;
+  border: 1px solid rgba(7, 15, 33, 0.1);
+  border-radius: 6px;
+  color: rgb(7 15 33 / 30%);
+}
+.addBlueBtn{
+  padding: 7px 12px;
+  background: #0E8CFF;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+}
